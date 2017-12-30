@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921F04881FF73AF6006BC729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04871FF73AF6006BC729 /* AppDelegate.m */; };
+		921F048B1FF73AF6006BC729 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F048A1FF73AF6006BC729 /* ViewController.m */; };
+		921F048E1FF73AF6006BC729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921F048C1FF73AF6006BC729 /* Main.storyboard */; };
+		921F04901FF73AF6006BC729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921F048F1FF73AF6006BC729 /* Assets.xcassets */; };
+		921F04931FF73AF6006BC729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921F04911FF73AF6006BC729 /* LaunchScreen.storyboard */; };
+		921F04961FF73AF6006BC729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04951FF73AF6006BC729 /* main.m */; };
+		921F04A01FF73AF6006BC729 /* ESPTankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F049F1FF73AF6006BC729 /* ESPTankTests.m */; };
+		921F04AB1FF73AF6006BC729 /* ESPTankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04AA1FF73AF6006BC729 /* ESPTankUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921F049C1FF73AF6006BC729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921F047B1FF73AF6006BC729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921F04821FF73AF6006BC729;
+			remoteInfo = ESPTank;
+		};
+		921F04A71FF73AF6006BC729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921F047B1FF73AF6006BC729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921F04821FF73AF6006BC729;
+			remoteInfo = ESPTank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921F04831FF73AF6006BC729 /* ESPTank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPTank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921F04861FF73AF6006BC729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		921F04871FF73AF6006BC729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		921F04891FF73AF6006BC729 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		921F048A1FF73AF6006BC729 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		921F048D1FF73AF6006BC729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		921F048F1FF73AF6006BC729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921F04921FF73AF6006BC729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		921F04941FF73AF6006BC729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921F04951FF73AF6006BC729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921F049B1FF73AF6006BC729 /* ESPTankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESPTankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921F049F1FF73AF6006BC729 /* ESPTankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTankTests.m; sourceTree = "<group>"; };
+		921F04A11FF73AF6006BC729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921F04A61FF73AF6006BC729 /* ESPTankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESPTankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921F04AA1FF73AF6006BC729 /* ESPTankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTankUITests.m; sourceTree = "<group>"; };
+		921F04AC1FF73AF6006BC729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921F04801FF73AF6006BC729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921F04981FF73AF6006BC729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921F04A31FF73AF6006BC729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921F047A1FF73AF6006BC729 = {
+			isa = PBXGroup;
+			children = (
+				921F04851FF73AF6006BC729 /* ESPTank */,
+				921F049E1FF73AF6006BC729 /* ESPTankTests */,
+				921F04A91FF73AF6006BC729 /* ESPTankUITests */,
+				921F04841FF73AF6006BC729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		921F04841FF73AF6006BC729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921F04831FF73AF6006BC729 /* ESPTank.app */,
+				921F049B1FF73AF6006BC729 /* ESPTankTests.xctest */,
+				921F04A61FF73AF6006BC729 /* ESPTankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921F04851FF73AF6006BC729 /* ESPTank */ = {
+			isa = PBXGroup;
+			children = (
+				921F04861FF73AF6006BC729 /* AppDelegate.h */,
+				921F04871FF73AF6006BC729 /* AppDelegate.m */,
+				921F04891FF73AF6006BC729 /* ViewController.h */,
+				921F048A1FF73AF6006BC729 /* ViewController.m */,
+				921F048C1FF73AF6006BC729 /* Main.storyboard */,
+				921F048F1FF73AF6006BC729 /* Assets.xcassets */,
+				921F04911FF73AF6006BC729 /* LaunchScreen.storyboard */,
+				921F04941FF73AF6006BC729 /* Info.plist */,
+				921F04951FF73AF6006BC729 /* main.m */,
+			);
+			path = ESPTank;
+			sourceTree = "<group>";
+		};
+		921F049E1FF73AF6006BC729 /* ESPTankTests */ = {
+			isa = PBXGroup;
+			children = (
+				921F049F1FF73AF6006BC729 /* ESPTankTests.m */,
+				921F04A11FF73AF6006BC729 /* Info.plist */,
+			);
+			path = ESPTankTests;
+			sourceTree = "<group>";
+		};
+		921F04A91FF73AF6006BC729 /* ESPTankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				921F04AA1FF73AF6006BC729 /* ESPTankUITests.m */,
+				921F04AC1FF73AF6006BC729 /* Info.plist */,
+			);
+			path = ESPTankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921F04821FF73AF6006BC729 /* ESPTank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921F04AF1FF73AF6006BC729 /* Build configuration list for PBXNativeTarget "ESPTank" */;
+			buildPhases = (
+				921F047F1FF73AF6006BC729 /* Sources */,
+				921F04801FF73AF6006BC729 /* Frameworks */,
+				921F04811FF73AF6006BC729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPTank;
+			productName = ESPTank;
+			productReference = 921F04831FF73AF6006BC729 /* ESPTank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		921F049A1FF73AF6006BC729 /* ESPTankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921F04B21FF73AF6006BC729 /* Build configuration list for PBXNativeTarget "ESPTankTests" */;
+			buildPhases = (
+				921F04971FF73AF6006BC729 /* Sources */,
+				921F04981FF73AF6006BC729 /* Frameworks */,
+				921F04991FF73AF6006BC729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921F049D1FF73AF6006BC729 /* PBXTargetDependency */,
+			);
+			name = ESPTankTests;
+			productName = ESPTankTests;
+			productReference = 921F049B1FF73AF6006BC729 /* ESPTankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		921F04A51FF73AF6006BC729 /* ESPTankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921F04B51FF73AF6006BC729 /* Build configuration list for PBXNativeTarget "ESPTankUITests" */;
+			buildPhases = (
+				921F04A21FF73AF6006BC729 /* Sources */,
+				921F04A31FF73AF6006BC729 /* Frameworks */,
+				921F04A41FF73AF6006BC729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921F04A81FF73AF6006BC729 /* PBXTargetDependency */,
+			);
+			name = ESPTankUITests;
+			productName = ESPTankUITests;
+			productReference = 921F04A61FF73AF6006BC729 /* ESPTankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921F047B1FF73AF6006BC729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "李育洋";
+				TargetAttributes = {
+					921F04821FF73AF6006BC729 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					921F049A1FF73AF6006BC729 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 921F04821FF73AF6006BC729;
+					};
+					921F04A51FF73AF6006BC729 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 921F04821FF73AF6006BC729;
+					};
+				};
+			};
+			buildConfigurationList = 921F047E1FF73AF6006BC729 /* Build configuration list for PBXProject "ESPTank" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921F047A1FF73AF6006BC729;
+			productRefGroup = 921F04841FF73AF6006BC729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921F04821FF73AF6006BC729 /* ESPTank */,
+				921F049A1FF73AF6006BC729 /* ESPTankTests */,
+				921F04A51FF73AF6006BC729 /* ESPTankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921F04811FF73AF6006BC729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921F04931FF73AF6006BC729 /* LaunchScreen.storyboard in Resources */,
+				921F04901FF73AF6006BC729 /* Assets.xcassets in Resources */,
+				921F048E1FF73AF6006BC729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921F04991FF73AF6006BC729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921F04A41FF73AF6006BC729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921F047F1FF73AF6006BC729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921F048B1FF73AF6006BC729 /* ViewController.m in Sources */,
+				921F04961FF73AF6006BC729 /* main.m in Sources */,
+				921F04881FF73AF6006BC729 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921F04971FF73AF6006BC729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921F04A01FF73AF6006BC729 /* ESPTankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921F04A21FF73AF6006BC729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921F04AB1FF73AF6006BC729 /* ESPTankUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		921F049D1FF73AF6006BC729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921F04821FF73AF6006BC729 /* ESPTank */;
+			targetProxy = 921F049C1FF73AF6006BC729 /* PBXContainerItemProxy */;
+		};
+		921F04A81FF73AF6006BC729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921F04821FF73AF6006BC729 /* ESPTank */;
+			targetProxy = 921F04A71FF73AF6006BC729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		921F048C1FF73AF6006BC729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921F048D1FF73AF6006BC729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		921F04911FF73AF6006BC729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921F04921FF73AF6006BC729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921F04AD1FF73AF6006BC729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		921F04AE1FF73AF6006BC729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921F04B01FF73AF6006BC729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P345JS8F2;
+				INFOPLIST_FILE = ESPTank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		921F04B11FF73AF6006BC729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P345JS8F2;
+				INFOPLIST_FILE = ESPTank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		921F04B31FF73AF6006BC729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P345JS8F2;
+				INFOPLIST_FILE = ESPTankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESPTank.app/ESPTank";
+			};
+			name = Debug;
+		};
+		921F04B41FF73AF6006BC729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P345JS8F2;
+				INFOPLIST_FILE = ESPTankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESPTank.app/ESPTank";
+			};
+			name = Release;
+		};
+		921F04B61FF73AF6006BC729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P345JS8F2;
+				INFOPLIST_FILE = ESPTankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ESPTank;
+			};
+			name = Debug;
+		};
+		921F04B71FF73AF6006BC729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P345JS8F2;
+				INFOPLIST_FILE = ESPTankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ESPTank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921F047E1FF73AF6006BC729 /* Build configuration list for PBXProject "ESPTank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921F04AD1FF73AF6006BC729 /* Debug */,
+				921F04AE1FF73AF6006BC729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921F04AF1FF73AF6006BC729 /* Build configuration list for PBXNativeTarget "ESPTank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921F04B01FF73AF6006BC729 /* Debug */,
+				921F04B11FF73AF6006BC729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921F04B21FF73AF6006BC729 /* Build configuration list for PBXNativeTarget "ESPTankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921F04B31FF73AF6006BC729 /* Debug */,
+				921F04B41FF73AF6006BC729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921F04B51FF73AF6006BC729 /* Build configuration list for PBXNativeTarget "ESPTankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921F04B61FF73AF6006BC729 /* Debug */,
+				921F04B71FF73AF6006BC729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921F047B1FF73AF6006BC729 /* Project object */;
+}
