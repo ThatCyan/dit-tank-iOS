@@ -15,6 +15,10 @@
 		921F04961FF73AF6006BC729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04951FF73AF6006BC729 /* main.m */; };
 		921F04A01FF73AF6006BC729 /* ESPTankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F049F1FF73AF6006BC729 /* ESPTankTests.m */; };
 		921F04AB1FF73AF6006BC729 /* ESPTankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04AA1FF73AF6006BC729 /* ESPTankUITests.m */; };
+		921F04BC1FF73B44006BC729 /* ESPTankMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04BA1FF73B44006BC729 /* ESPTankMainViewController.m */; };
+		921F04BD1FF73B44006BC729 /* ESPTankMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921F04BB1FF73B44006BC729 /* ESPTankMainViewController.xib */; };
+		921F04C21FF783FD006BC729 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04BF1FF783FD006BC729 /* GCDAsyncSocket.m */; };
+		921F04C31FF783FD006BC729 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 921F04C11FF783FD006BC729 /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		921F04A61FF73AF6006BC729 /* ESPTankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESPTankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921F04AA1FF73AF6006BC729 /* ESPTankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTankUITests.m; sourceTree = "<group>"; };
 		921F04AC1FF73AF6006BC729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921F04B91FF73B44006BC729 /* ESPTankMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPTankMainViewController.h; sourceTree = "<group>"; };
+		921F04BA1FF73B44006BC729 /* ESPTankMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTankMainViewController.m; sourceTree = "<group>"; };
+		921F04BB1FF73B44006BC729 /* ESPTankMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESPTankMainViewController.xib; sourceTree = "<group>"; };
+		921F04BE1FF783FD006BC729 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		921F04BF1FF783FD006BC729 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		921F04C01FF783FD006BC729 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		921F04C11FF783FD006BC729 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,7 @@
 		921F04851FF73AF6006BC729 /* ESPTank */ = {
 			isa = PBXGroup;
 			children = (
+				921F04B81FF73B1D006BC729 /* ESPTank */,
 				921F04861FF73AF6006BC729 /* AppDelegate.h */,
 				921F04871FF73AF6006BC729 /* AppDelegate.m */,
 				921F04891FF73AF6006BC729 /* ViewController.h */,
@@ -130,6 +142,20 @@
 				921F04AC1FF73AF6006BC729 /* Info.plist */,
 			);
 			path = ESPTankUITests;
+			sourceTree = "<group>";
+		};
+		921F04B81FF73B1D006BC729 /* ESPTank */ = {
+			isa = PBXGroup;
+			children = (
+				921F04B91FF73B44006BC729 /* ESPTankMainViewController.h */,
+				921F04BA1FF73B44006BC729 /* ESPTankMainViewController.m */,
+				921F04BB1FF73B44006BC729 /* ESPTankMainViewController.xib */,
+				921F04BE1FF783FD006BC729 /* GCDAsyncSocket.h */,
+				921F04BF1FF783FD006BC729 /* GCDAsyncSocket.m */,
+				921F04C01FF783FD006BC729 /* GCDAsyncUdpSocket.h */,
+				921F04C11FF783FD006BC729 /* GCDAsyncUdpSocket.m */,
+			);
+			path = ESPTank;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921F04BD1FF73B44006BC729 /* ESPTankMainViewController.xib in Resources */,
 				921F04931FF73AF6006BC729 /* LaunchScreen.storyboard in Resources */,
 				921F04901FF73AF6006BC729 /* Assets.xcassets in Resources */,
 				921F048E1FF73AF6006BC729 /* Main.storyboard in Resources */,
@@ -265,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921F04BC1FF73B44006BC729 /* ESPTankMainViewController.m in Sources */,
+				921F04C21FF783FD006BC729 /* GCDAsyncSocket.m in Sources */,
 				921F048B1FF73AF6006BC729 /* ViewController.m in Sources */,
 				921F04961FF73AF6006BC729 /* main.m in Sources */,
+				921F04C31FF783FD006BC729 /* GCDAsyncUdpSocket.m in Sources */,
 				921F04881FF73AF6006BC729 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P345JS8F2;
 				INFOPLIST_FILE = ESPTank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P345JS8F2;
 				INFOPLIST_FILE = ESPTank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.naxiemolv.www.ESPTank;
 				PRODUCT_NAME = "$(TARGET_NAME)";

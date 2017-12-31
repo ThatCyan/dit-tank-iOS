@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ESPTankMainViewController : UIViewController
-
+@property (nonatomic,strong) NSString *devID;
+@property (nonatomic, copy) NSString *host;
+@property (nonatomic,assign) UInt16 port;
 @end
